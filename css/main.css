@@ -1,0 +1,69 @@
+body{
+    font-family:sans-serif;
+}
+.container{
+    width:80vh;
+    height:100vh;
+    background-color:rgb(109, 17, 146);
+    margin:auto;
+    margin-top:50px;
+    padding-top:20px;
+}
+.sub-container{
+    width:80%;
+    height:80%;
+    background-color:rgb(201, 202, 154);
+    margin:auto;
+    border-radius:10px;
+    padding-top:10px;
+}
+#header{
+    width:90%;
+    height:15%;
+    background-color: rgb(153, 67, 67);
+    margin:auto;
+    border-radius:10px;
+}
+.task{
+    margin-left:20px;
+    margin-top:20px;
+}
+button{
+    float:right;
+    margin-top:20px;
+    background-color:white;
+    border:1px solid black;
+    border-radius:50%;
+    margin-right:10px;
+}
+input[type="text"]{
+    border:none;
+    outline:none;
+    background-color: rgb(153, 67, 67);
+    height:40px;
+    width:75%;
+    margin-left:5px;
+    font-size:30px;
+}
+
+ul li{
+    list-style: none;
+    height:50px;
+    font-size:30px;
+    margin-left:-50px;
+}
+#div1{
+    margin-top:40px;
+    padding-bottom:10px;
+    border-bottom: 1px solid rgb(236, 233, 233);
+    color:rgb(150, 147, 147);
+}
+#div2{
+    border-top: 1px solid rgb(236, 233, 233);
+    padding-top:10px;
+    color:rgb(150, 147, 147);
+}
+input[type="checkbox"]{
+    width:30px;
+    height:20px;
+}
